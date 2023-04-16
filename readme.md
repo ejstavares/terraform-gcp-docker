@@ -17,8 +17,8 @@ After creating your GCP account, create or modify the following resources to ena
 - Enable Google Compute Engine for your project [in the GCP console](https://console.developers.google.com/apis/library/compute.googleapis.com). Make sure to select the project you are using to follow this tutorial and click the **"Enable"** button.
 - [Create a service account key](https://console.cloud.google.com/apis/credentials/serviceaccountkey) to enable Terraform to access your GCP account.
 - After you create your service account, download your service account key on detail page, **select**ing **the "Keys" tab**.
-- Rename the JSON KEY file to ``gpc-service-account-key.json`` downloaded and move to current directory.
-- Copy ``terraform.tfvars.EXAMPLE`` to ``terraform.tfvars``and past the Project ID into the ``project`` var, on this new file.
+- Rename the JSON KEY file to ``gpc-service-account-key.json`` downloaded and move to ``learn-terraform-gcp`` directory.
+- Into ``learn-terraform-gcp`` directory, copy ``terraform.tfvars.EXAMPLE`` to ``terraform.tfvars``and past the Project ID into the ``project`` var, on this new file.
 ```bash
     cp terraform.tfvars.EXAMPLE terraform.tfvars
 ```
